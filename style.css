@@ -1,6 +1,6 @@
 :root {
-  --primary-color: #1e1e1d;
-  --primary-color-dark: #161513;
+  --primary-color: #212124;
+  --primary-color-dark: #18181b;
   --primary-color-light: #a3a3a3;
   --white: #ffffff;
   --max-width: 900px;
@@ -16,6 +16,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Courier New', Courier, monospace;
 }
 .section_container {
   max-width: var(--max-width);
@@ -164,6 +165,10 @@ body {
   background-color: var(--white);
 }
 
+.header_container img {
+  border-radius: 50%;
+}
+
 .skill_container {
   padding-block: 0;
 }
@@ -189,6 +194,7 @@ body {
 
 .skill_flex span {
   font-size: 2.5rem;
+  padding: 1rem;
   background: var(--gradient-2);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -260,7 +266,7 @@ body {
 
 .experience_list {
   display: grid;
-  gap: 3rem;
+  gap: 5rem;
 }
 
 .experience_header {
@@ -280,6 +286,7 @@ body {
 
 .experience_header img {
   max-width: 25px;
+  border-radius: 50%;
 }
 
 .experience_header h4 {
@@ -295,6 +302,7 @@ body {
 
 .experience_list li p {
   color: var(--primary-color-light);
+  margin-bottom: 0.5rem;
 }
 
 footer {
