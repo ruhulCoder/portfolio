@@ -22,7 +22,7 @@
 .section_container {
   max-width: var(--max-width);
   margin: auto;
-  padding: 5rem 1rem;
+  padding: 5rem 1rem 0 1rem;
 }
 
 img {
@@ -250,7 +250,7 @@ img {
 
 .project_card:hover .overlay {
   top: 0;
-  height: 80%;
+  height: 78%;
   cursor: pointer;
 }
 
